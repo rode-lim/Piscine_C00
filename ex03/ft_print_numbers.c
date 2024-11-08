@@ -1,8 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rode-lim <rode-lim@student.42lisboa.com    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/11/08 16:48:23 by rode-lim          #+#    #+#             */
+/*   Updated: 2024/11/08 16:53:22 by rode-lim         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
 void	ft_print_numbers(void)
 {
 	char	c;
+
 	c = '0';
 	while (c <= '9')
 	{
@@ -11,7 +24,7 @@ void	ft_print_numbers(void)
 	}
 }
 
-int	main()
-{
-	ft_print_numbers();
-}
+// int	main()
+// {
+// 	ft_print_numbers();
+// }
